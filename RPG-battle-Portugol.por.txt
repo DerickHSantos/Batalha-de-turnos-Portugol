@@ -68,7 +68,7 @@ programa
 				//Para ataque 
 				se(pa==1){
 					ph=ph-ma
-					pa=util.sorteia(9,14)
+					pa=13
 					pa=pa*pr
 					//Resultados
 					escreva("Você atacou o monstro por ",pa," de dano.")
@@ -80,7 +80,7 @@ programa
 				//Para cura
 				se(pa==2){
 					se(pm>0){
-						pa=util.sorteia(8,13)
+						pa=10
 						pa=pa*pr
 						//Resultados
 						escreva("Você se curou por ",pa," de vida.")
@@ -112,6 +112,7 @@ programa
 					escreva("Você espera ocioso.")
 					escreva("\n =====\n |z_z|\n =====  \n   |   \n  /|\ \n  \|/\n  / \\n  | | —|——\n")
 					ph=ph-ma
+					pm=pm+1
 				}
 				//Passagem de turnos e retorno ao segundo enquanto
 				escreva("\nPessione ENTER para prosseguir para o próximo turno")
