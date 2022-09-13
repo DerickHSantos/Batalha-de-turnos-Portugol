@@ -1,5 +1,6 @@
 programa
 {
+	//Biblioteca para geração de números aleatórios (RNG)
 	inclua biblioteca Util --> util
 	funcao inicio ()
 	{
