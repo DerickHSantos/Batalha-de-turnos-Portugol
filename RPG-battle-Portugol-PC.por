@@ -4,7 +4,7 @@ programa
 	inclua biblioteca Util --> util
 	funcao inicio ()
 	{
-		//Variáveis Monster Action, Player Action Number, Monster Health, Player Health, Player Mana, Monster Cure 
+		//Variáveis Monster Action, Player Action Number, Monster Health, Player Health, Player Mana, Monster Cure  
 		inteiro ma,pan,mh,ph,pm,mc
 		//Variáveis Monster Random, Player Random 
 		real mr,pr
