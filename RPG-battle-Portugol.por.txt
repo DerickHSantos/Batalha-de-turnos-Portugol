@@ -14,7 +14,7 @@ programa
 		inteiro go
 		//Game Over = falso
 		go=0
-		//Enquanto Game Ovet for falso
+		//Enquanto Game Over for falso
 		enquanto (go==0){
 			//Setup para o início da batalha 
 			jn="n"
